@@ -1,8 +1,60 @@
 module.exports = {
+  important: true,
   purge: [
     './src/**/*.html',
-  ], theme: {
-    extend: {},
+  ],
+  theme: {
+    fontFamily: {
+      body: ['"Open Sans"', 'sans-serif'],
+      title: ['Montserrat', 'sans-serif'],
+      logo: ['"Major Mono Display"', 'monospace'],
+    },
+    colors: {
+      red: {
+        100: '#FAEBEA',
+        200: '#F2CCCC',
+        300: '#EBADAD',
+        400: '#DB706F',
+        default: '#CC3231',
+        600: '#B82D2C',
+        700: '#7A1E1D',
+        800: '#5C1716',
+        900: '#3D0F0F',
+      },
+      indigo: {
+        100: '#EAF5F7',
+        200: '#CAE6EC',
+        300: '#A9D6E0',
+        400: '#69B8C8',
+        default: '#2999B1',
+        600: '#258A9F',
+        700: '#195C6A',
+        800: '#124550',
+        900: '#0C2E35',
+      },
+      black: {
+        100: '#E8E7E7',
+        200: '#C4C3C4',
+        300: '#A19FA0',
+        400: '#5B5858',
+        default: '#141011',
+        600: '#120E0F',
+        700: '#0C0A0A',
+        800: '#090708',
+        900: '#060505',
+      },
+      white: {
+        100: '#FFFFFF',
+        200: '#FEFEFE',
+        300: '#FEFEFE',
+        400: '#FDFDFD',
+        default: '#FCFCFC',
+        600: '#E3E3E3',
+        700: '#979797',
+        800: '#717171',
+        900: '#4C4C4C',
+      },
+    }
   },
   variants: {},
   plugins: [],
