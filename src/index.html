@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style.pcss">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/valis-logo-small.png">
     <title>Meet VALIS</title>
@@ -30,19 +30,19 @@
 </head>
 
 
-<body class="font-body text-black h-screen overflow-hidden items-center justify-center">
+<body class="font-body text-black h-screen items-center justify-center">
 
     <header class="text-black-700 border-b border-black-200">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a class="flex font-logo font-medium items-center mb-4 md:mb-0" href="/">
-                <img class="object-contain h-12 w-full" src="/images/valis-logo-small.png" alt="valis logo" />
-                <span class="font-logo ml-3 text-xl">VALIS</span>
+                <img class="object-contain h-12" src="/images/valis-logo-small.png" alt="valis logo" />
+                <span class="font-logo ml-3 text-4xl md:text-2xl">VALIS</span>
             </a>
-            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <nav class="hidden md:flex md:ml-auto flex-wrap items-center text-base justify-center">
                 <a class="mr-5 cursor-pointer hover:underline" href="/about.html">About</a>
             </nav>
             <button
-                class="inline-flex items-center bg-black border-0 py-1 px-5 focus:outline-none hover:bg-black-700 rounded text-base text-white mt-4 md:mt-0">
+                class="hidden md:inline-flex items-center bg-black border-0 py-1 px-5 focus:outline-none hover:bg-black-700 rounded text-base text-white mt-4 md:mt-0">
                 Early access
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     class="w-4 h-4 ml-1" viewBox="0 0 24 24">
@@ -54,7 +54,7 @@
     </header>
 
     <section>
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="container mx-auto flex px-5 py-12 md:py-24 md:flex-row flex-col items-center">
             <div
                 class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                 <p class="font-title text-indigo-600 ">WORK IN PROGRESS</p>
@@ -88,7 +88,7 @@
             </a> -->
             <p class="text-sm text-black sm:mt-0 mt-4">©
                 2020 VALIS —
-                <a href="https://adgb.me" class="text-black-600 ml-1" rel="noopener noreferrer" target="_blank">ADGB</a>
+                <a href="/about.html" class="text-black-600 ml-1">About</a>
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                 <a class="ml-3 text-black" href="https://linkedin.com/in/andreagiacobino/">
