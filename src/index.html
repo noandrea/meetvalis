@@ -27,6 +27,19 @@
             "operatingSystem": "All"
           }
     </script>
+    <!-- Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165381016-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-165381016-1');
+    </script>
+    <!-- GDPR -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 
 
@@ -75,9 +88,9 @@
                 </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-              <video loop autoplay class="shadow-2xl" poster="/media/meetvalis_interaction.png">
-                  <source src="/media/meetvalis_interaction.webm" type="video/webm">
-                  <source src="/media/meetvalis_interaction.mp4" type="video/mp4">
+                <video loop autoplay class="shadow-2xl" poster="/media/meetvalis_interaction.png">
+                    <source src="/media/meetvalis_interaction.webm" type="video/webm">
+                    <source src="/media/meetvalis_interaction.mp4" type="video/mp4">
                 </video>
             </div>
         </div>
@@ -105,7 +118,21 @@
             </span>
         </div>
     </footer>
-
+    <!--GDPR-->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#383b75"
+                },
+                "button": {
+                    "background": "#f1d600"
+                }
+            },
+            "type": "opt-out"
+        });
+    </script>
 </body>
 
 </html>
